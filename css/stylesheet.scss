@@ -1,0 +1,32 @@
+
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
+    color: rgb(40, 40, 40) !important;
+}
+.container{
+    padding: none;
+    width: 25vw;
+    height: 60vh;
+    display: grid;
+
+    background-color: rgb(255, 255, 255);
+
+    h2{
+        text-decoration: underline;
+        text-underline-offset: 0.40em;
+    }
+    a{
+        color: #ed7a2d;
+    }
+    .btn{
+        background-color: #ed7a2d;
+    }
+}   
+.boxed-border{
+    align-items: center;
+    border: solid 2px black;
+}

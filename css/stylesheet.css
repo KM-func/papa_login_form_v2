@@ -1,0 +1,42 @@
+body {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 90vh;
+  color: #282828 !important;
+}
+
+.container {
+  padding: none;
+  width: 25vw;
+  height: 60vh;
+  display: -ms-grid;
+  display: grid;
+  background-color: white;
+}
+
+.container h2 {
+  text-decoration: underline;
+  text-underline-offset: 0.40em;
+}
+
+.container a {
+  color: #ed7a2d;
+}
+
+.container .btn {
+  background-color: #ed7a2d;
+}
+
+.boxed-border {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid 2px black;
+}
+/*# sourceMappingURL=stylesheet.css.map */
